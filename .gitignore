@@ -1,7 +1,9 @@
 # Node modules
 node_modules/
+web-build/
 
 # Expo folders
+
 .expo/
 .expo-shared/
 
