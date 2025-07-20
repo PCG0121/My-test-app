@@ -1,13 +1,23 @@
-# Learn more https://docs.github.com/en/get-started/getting-started-with-git/ignoring-files
+# Node modules
+node_modules/
 
-# dependencies
+# Expo folders
+.expo/
+.expo-shared/
 
+# Environment variables
+.env
 
-# Expo
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+*.log
 
-dist/
-
-expo-env.d.ts
+# IDE and system files
+.DS_Store
+.idea/
+.vscode/
 
 # Native
 .kotlin/
